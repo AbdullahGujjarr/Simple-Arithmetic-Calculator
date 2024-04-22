@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" class="display" readonly>
+        <div class="buttons">
+            <button onclick="AppendChildDisplay('+')" class="operator">+</button>
+            <button onclick="AppendChildDisplay('-')" class="operator">-</button>
+            <button onclick="AppendChildDisplay('*')" class="operator">*</button>
+            <button onclick="AppendChildDisplay('/')" class="operator">/</button>
+            <button onclick="AppendChildDisplay('7')">7</button>
+            <button onclick="AppendChildDisplay('8')">8</button>
+            <button onclick="AppendChildDisplay('9')">9</button>
+            <button onclick="Clear()" class="clear">C</button>
+            <button onclick="AppendChildDisplay('4')">4</button>
+            <button onclick="AppendChildDisplay('5')">5</button>
+            <button onclick="AppendChildDisplay('6')">6</button>
+            <button onclick="AppendChildDisplay('.')">.</button>
+            <button onclick="AppendChildDisplay('1')">1</button>
+            <button onclick="AppendChildDisplay('2')">2</button>
+            <button onclick="AppendChildDisplay('3')">3</button>
+            <button onclick="Result()" class="equal">=</button>
+            <button onclick="AppendChildDisplay('0')">0</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
